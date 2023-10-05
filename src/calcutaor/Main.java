@@ -1,3 +1,5 @@
+package calcutaor;
+
 import java.util.Scanner;
 
 public class Main {
@@ -15,8 +17,7 @@ public class Main {
             char operator = scanner.next().charAt(0);
 
             if (operator == 'q') {
-                System.out.println("Программа завершена.");
-                break;
+                System.out.println("Программа завершена.");break;
             }
 
             double result;
